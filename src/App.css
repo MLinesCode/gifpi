@@ -1,3 +1,14 @@
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #414141;
+}
+body::-webkit-scrollbar-thumb {
+  background: #e874ff;
+  border-radius: 5px;
+}
+
 .App {
   text-align: center;
 }
@@ -8,7 +19,7 @@
 }
 
 .App-content {
-  background-color: #731dfd;
+  background-color: #505050;
   color: white;
   display: flex;
   flex-direction: column;
