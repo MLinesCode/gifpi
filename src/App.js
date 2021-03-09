@@ -14,7 +14,9 @@ export default function App() {
     <div className="App">
       <section className="App-content">
         <Link to="/">
-          <img className="App-logo" alt='GIFpi logo' src='/logo192.png' />
+        <figure className="App-logo">
+          <img alt='GIFpi logo' src='/logo-gifpi.svg' />
+        </figure>
         </Link>
         <GifsContextProvider>
           <Route
